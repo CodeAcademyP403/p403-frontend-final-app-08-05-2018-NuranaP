@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-line">
+            <div class="wgBoard">
+                <p class="paragraph01">
+                    <span>Wg</span>Board
+                </p>
+            </div>
+            <div class="navDivision">
+                <button class="menu">
+                    <a href="#">
+                        <div class="menuIcon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </button>
+                <nav class="navigationTop">
+                    <ul class="fileCreate">
+                        <li class="list-element dropdown">
+                            <a href="#" class="link01" id="myLink" onclick="myDropdown()">
+                                <i class="far fa-file"></i>
+                                <span>Create</span> 
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                            <ul class="header-dropdown" id="dropdown">
+                                <li class="dropdown-element">
+                                    <a href="#">
+                                        Publication
+                                    </a>
+                                </li>
+                                <li class="dropdown-element">
+                                    <a href="#">
+                                        Project
+                                    </a>
+                                </li>
+                                <li class="dropdown-element">
+                                    <a href="#">
+                                        Task item
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-element">
+                            <a href="#" class="link01">
+                                <i class="fas fa-cloud"></i>
+                                File explorer
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar">
+                        <li>
+                            <a href="#" class="link02">
+                                <i class="far fa-bell"></i>
+                                <span class="three">
+                                    3
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link02">
+                                EN
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown-list">
+                            <a href="#" class="link02" id="mySecondLink" onclick="mySecondDropdown()">
+                                <span>
+                                    Mary Riley
+                                </span>
+                                <i class="fas fa-caret-down"></i>
+                                <div class="profile">
+                                    <img src="images/avatar-f-05.jpg" alt="">
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu" id="secondDropdown">
+                                <li class="dropdown-element2">
+                                    <a href="#">
+                                        <i class="far fa-address-card"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="dropdown-element2">
+                                    <a href="#">
+                                        <i class="fas fa-tasks"></i>
+                                        Tasks
+                                    </a>
+                                </li>
+                                <li class="dropdown-element2">
+                                    <a href="#">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        Sign out
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="leftNavbar">
+            <div class="verticalHeader">
+                <div class="sideSearch">
+                    <form action="">
+                        <div class="search">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <div class="input-button">
+                                <button>
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <ul class="sideNavigation">
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-home"></i>
+                            <span class="side-span-element">
+                                Dashboard
+                            </span>
+                            <i class="fas fa-arrow-circle-down"></i>
+                        </a>
+                        <ul class="collapse">
+                            <li class="list-element">
+                                <a href="index.html">
+                                    <i class="far fa-circle"></i>
+                                    <span>Main layout</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html">
+                                    <i class="far fa-circle"></i>
+                                    <span>Online shop</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html">
+                                    <i class="far fa-circle"></i>
+                                    <span>Blog dashboard</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-leaf"></i>
+                            <span class="side-span-element span-element01">
+                                Ul elements
+                            </span>
+                            <i class="fas fa-arrow-circle-down"></i>
+                        </a>
+                        <ul class="collapse">
+                            <li class="list-element">
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Badges</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Labels</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>List groups</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Pagination</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Panels</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Progress bars</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-code"></i>
+                            <span class="side-span-element span-element02">
+                                Components
+                            </span>
+                            <i class="fas fa-arrow-circle-down"></i>
+                        </a>
+                        <ul class="collapse">
+                            <li class="list-element">
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Alerts</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Tolltips</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Popovers</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-circle"></i>
+                                    <span>Modals</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-square"></i>
+                            <span>
+                                Buttons
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-list-alt"></i>
+                            <span>
+                                Forms
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-table"></i>
+                            <span>
+                                Tables
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="side-nav-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>
+                                Charts
+                            </span>
+                            <span class="badge">
+                                New
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="title">
+                    Summary information
+                </div>
+                <div class="summaryProgress">
+                    <div class="summary-title mb-0p5">
+                        <div class="progress-title">
+                            Pending
+                            <span class="value">37%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 37%;"></div>
+                        </div>
+                    </div>
+                    <div class="summary-title mb-0p5">
+                        <div class="progress-title">
+                            Approved 
+                            <span class="value">60%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="summary-title mb-0p5">
+                        <div class="progress-title">
+                            Rejected 
+                            <span class="value">3%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 3%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-container">
+        <header class="main-heading">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="mainHeader">
+                            <li>
+                                <i class="fas fa-home"></i>
+                                <a href="#">
+                                    home
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right angle"></i>
+                                <a href="#">
+                                    dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right angle"></i>
+                                <a href="#">
+                                    main page
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pageHeader">
+                            <h3>
+                                Welcome back Mary!
+                            </h3>
+                            <h4>
+                                Get started with the control panel right now
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="widget-card">
+                        <div class="widnet widnet-1">
+                            <div class="widnet-body">
+                                <div class="wg-left">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </div>
+                                <div class="wg-right">
+                                    <div class="wg-piece">428</div>
+                                    <div class="wg-title">New posts</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="widget-card">
+                        <div class="widnet widnet-2">
+                            <div class="widnet-body">
+                                <div class="wg-left">
+                                    <i class="far fa-comments"></i>
+                                </div>
+                                <div class="wg-right">
+                                    <div class="wg-piece">128</div>
+                                    <div class="wg-title">New comments</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="widget-card">
+                        <div class="widnet widnet-3">
+                            <div class="widnet-body">
+                                <div class="wg-left">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <div class="wg-right">
+                                    <div class="wg-piece">$ 4,870</div>
+                                    <div class="wg-title">Earnings</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="widget-card">
+                        <div class="widnet widnet-4">
+                            <div class="widnet-body">
+                                <div class="wg-left">
+                                    <i class="far fa-user"></i>
+                                </div>
+                                <div class="wg-right">
+                                    <div class="wg-piece">407</div>
+                                    <div class="wg-title">New clients</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div id="widget-calendar" class="widgetCalendar">
+                        <div class="widnet-content">
+                            <div class="widnet-body">
+                                <div class="col-12 col-md-4 wg-body-column">
+                                    <div class="wg-today">
+                                        <div>
+                                            <div class="today-number">19</div>
+                                            <div class="today-week">Saturday</div>
+                                        </div>
+                                        <div>
+                                            <div class="today-month">May</div>
+                                            <div class="today-year">2018</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</body>
+</html>
